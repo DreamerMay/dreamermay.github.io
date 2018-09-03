@@ -24,3 +24,6 @@ UX
 
 css
 https://codepen.io/EvyatarDa/pen/waKXMd
+
+P5 animation
+https://p5js.org/examples/simulate-particle-system.html
