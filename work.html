@@ -6,85 +6,120 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sherine Foo Portfolio</title>
   <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="node_modules/izimodal/css/iziModal.min.css">
+  <script src= "js/jquery.js"></script>
   <script src="js/main.js"></script>
+  <script src="node_modules/izimodal/js/iziModal.min.js" type="text/javascript"></script>
 </head>
+
 <body>
   <header>
-      <nav>
+      <nav>ß
         <div class="nav_margin pullUpDown">
           <a href="index.html">HOME</a>
           <a href="work.html">WORK</a>
           <a href="about_me.html">ABOUT ME</a>
-          <a href="contact.html">CONTACT</a>
         </div>
       </nav>
   </header>
-
+ß
 
     <main>
       <div class="container">
-        <h1>PROJECTS</h1>
 
         <div id="gallery">
+          <h1>WEB DEVELOPER</h1>
+
           <div id="web-dev-projects">
 
-            <figure class="audio-art">
-              <img src="" alt="audio-art" class="thumb" id="sound-detect-art-thumb">
-              <p>Sound Art</p>
-              <a id="project-link" href="https://www.sherinefoo.com/audio_art2/" target="_blank">
-            </figure>
+            <div class="wrapper">
 
-            <figure class="dating-app">
-              <img src="" alt="dating-app" class="thumb" id="dating-app-thumb">
-              <p>Dating Web (Group Project)</p>
-              <a id="project-link" href="https://todo-meetyou.herokuapp.com/" target="_blank">
-            </figure>
+              <div class="img-nest">
+                <img src="./images/web-audio-art.png" alt="Audio Art" class="project-pic">
+                <br>
+                <a href="https://www.sherinefoo.com/audio_art2/" target="_blank" id="project-link" class="project-name tooltip"><span id="a">Audio Art</span><span id="b">Live Demo</span></a>
+              </div>
 
-            <figure class="fashion-site">
-              <img src="" alt="fashion-site" class="thumb" id="fashion-site-thumb">
-              <p>Fashion Site</p>
-              <a id="project-link" href="https://hidden-springs-69116.herokuapp.com/" target="_blank">
-            </figure>
+              <div class="img-nest">
+                <img src="./images/web-dating-web.png" alt="Dating Web" class="project-pic trigger">
+                <br>
+                <a href="https://todo-meetyou.herokuapp.com/" target="_blank" id="project-link" class="project-name"><span id="a">//TODO: Meet You &#10084;</span><span id="b">Live Demo</span></a>
+              </div>
 
-            <figure class="tic-tac-toe">
-              <img src="" alt="tic-tac-toe" class="thumb" id="tic-tac-toe-thumb">
-              <p>Tic Tac Toe</p>
-              <a id="project-link" href="https://www.sherinefoo.com/tic-tac-toe/tic-tac-toe/" target="_blank">
-            </figure>
+            </div>
+
+            <!-- Modal structure -->
+            <div id="modal"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
+            <!-- Modal content -->
+            </div>
+
+            <div class="wrapper">
+
+              <div class="img-nest">
+                <img src="./images/web-fashion-site.png" alt="Fashion Site" class="project-pic">
+                <br>
+                <a href="https://hidden-springs-69116.herokuapp.com/" target="_blank" id="project-link" class="project-name"><span id="a">Fashion Site</span><span id="b">Live Demo</span></a>
+              </div>
+
+              <div class="img-nest">
+                <img src="./images/web-tic-tac-toe.png" alt="Tic Tac Toe" class="project-pic">
+                <br>
+                <a href="https://www.sherinefoo.com/tic-tac-toe/tic-tac-toe/" target="_blank" id="project-link" class="project-name"><span id="a">Tic Tac Toe</span><span id="b">Live Demo</span></a>
+              </div>
+
+            </div>
+
+        <!-- Modal structure -->
+        <div id="modal"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
+        <!-- Modal content -->
+        </div>
+
+        <!-- Trigger to open Modal -->
+        <a href="https://github.com/dolce/iziModal" class="trigger">Modal</a>
 
           </div>
 
+          <hr>
 
           <div id="ux-projects">
-            <figure class="westfield">
-              <img src="" alt="Westfield Project" class="thumb" id="westfield-thumb">
-              <p>Westfield<br>Parking<br>Solution</p>
-              <a id="project-link" href="https://drive.google.com/open?id=1G9r-bY6N8--ZxBT4DzBPYImYihy-ebqe" target="_blank">
-            </figure>
+            <h1>UX</h1>
+            <div class="wrapper">
 
-            <figure class="KWTE">
-              <img src="" alt="KWTE" class="thumb" id="KWTE-thumb">
-              <p>Know What<br>To Eat</p>
-              <a id="project-link" href="https://drive.google.com/open?id=1urhxkcIsxIpRuFXrd-tSwfF0wXoYj0Ws" target="_blank">
-            </figure>
+              <div class="img-nest">
+                <img src="./images/ux-kwte.png" alt="KWTE" class="project-pic">
+                <br>
+                <a href="https://drive.google.com/open?id=1urhxkcIsxIpRuFXrd-tSwfF0wXoYj0Ws" target="_blank" id="project-link" class="project-name"><span id="a">Know What To Eat</span><span id="b">Full Profile</span></a>
+              </div>
 
-            <figure class="property">
-              <img src="" alt="Perfect Property" class="thumb" id="property-thumb">
-              <p>Perfect Property</p>
-              <a id="project-link" href="https://drive.google.com/open?id=1vwl0_H5hQE21eXkey4ipIjzJEiH2LLUm" target="_blank">
-            </figure>
+              <div class="img-nest">
+                <img src="./images/ux-perfect-property.png" alt="Perfect Property" class="project-pic">
+                <br>
+                <a href="https://drive.google.com/open?id=1vwl0_H5hQE21eXkey4ipIjzJEiH2LLUm" target="_blank" id="project-link" class="project-name"><span id="a">Perfect Property</span><span id="b">Full Profile</span></a>
+              </div>
 
-            <figure class="wordzer">
-              <img src="" alt="Wordzer" class="thumb" id="wordzer-thumb">
-              <p>Wordzer</p>
-              <a id="project-link" href="https://drive.google.com/open?id=1KkmO1Dvq0VU-wZBrZERKIg2CU_dvhiBI" target="_blank">
-            </figure>
+            </div>
 
-          </div>
+            <div class="wrapper">
+
+              <div class="img-nest">
+                <img src="./images/ux-westfield.png" alt="Westfield" class="project-pic">
+                <br>
+                <a href="https://drive.google.com/open?id=1G9r-bY6N8--ZxBT4DzBPYImYihy-ebqe" target="_blank" id="project-link" class="project-name"><span id="a">Westfield</span><span id="b">Full Profile</span></a>
+              </div>
+
+              <div class="img-nest">
+                <img src="./images/ux-wordzer.png" alt="Wordzer" class="project-pic">
+                <br>
+                <a href="https://drive.google.com/open?id=1KkmO1Dvq0VU-wZBrZERKIg2CU_dvhiBI" target="_blank" id="project-link" class="project-name"><span id="a">Wordzer</span><span id="b">Full Profile</span></a>
+              </div>
+
+            </div>
+
+          </div>   <!-- ux project -->
 
 
-        </div>
-      </div>
+        </div> <!-- gallery -->
+      </div>  <!-- Projects conatiner -->
 
 
     </main>
