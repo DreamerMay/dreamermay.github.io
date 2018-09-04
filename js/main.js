@@ -73,3 +73,16 @@ function draw()
        stars[i].update();
      } // star
 };
+
+// default try iziModal
+// $(document).on('click', '.open-default', function(event) {
+//   event.preventDefault();
+//   $('#modal').iziModal('open');
+// });
+// $('#modal').iziModal();
+
+
+// modality popup
+$('#audio-art-pic').modality({
+    effect: 'slide-up'
+});

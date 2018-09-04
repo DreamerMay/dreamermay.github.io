@@ -172,8 +172,6 @@ h1 {
   color: #42FC96;
   margin-top: 2vw;
   margin-bottom: 1vw;
-  text-shadow: #42FC96 3px 2px 10px;
-
 }
 
 h2 {
@@ -205,7 +203,67 @@ hr {
   border: 3px solid white;
   border-radius: 10px;
   margin-bottom: 1vw;
+  z-index: -1;
 }
+
+.pop-a{
+  color: white;
+}
+
+.yourModalClass {
+  background-color: #e95546;
+  border: 1px solid #fc6d58;
+  padding: 0 1.5em 1em;
+  border-radius: 5px;
+  max-width: 380px;
+  color:#fff;
+}
+
+.project-img-div{
+  position:relative;
+
+  /* text-align: center; */
+}
+
+.pop-a-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.pop-a {
+  background-color: white;
+  opacity: 0;
+  padding: 10vw 20vw 10vw;
+
+}
+
+/* Izimodal */
+/* .button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 20px;
+  background:#fff;
+  border:1px #333 solid;
+  font-size:14px;
+  color:#333;
+}
+a {
+  font-size:14px;
+  color:#333;
+  text-decoration:none;
+}
+.close {
+  text-align:right;
+  padding: 10px;
+}
+p {
+  padding: 20px;
+  line-height:1.6;
+} */
+/* Izimodal end*/
 
 .project-name {
   font-size: 1.5vw;
@@ -213,14 +271,21 @@ hr {
   text-shadow: #FF5D73 2px 2px 10px;
 }
 
+#a{
+  font-size: 1.5vw;
+  color: #FF5D73;
+  text-shadow: #42FC96 2px 2px 10px;
+}
+
 #b {
+  font-size: 1.5vw;
   color: #42FC96;
   text-shadow: #42FC96 2px 2px 10px;
-
 }
 
 a#project-link span#a {
   display: inline;
+
 }
 
 a#project-link:hover span#a {
@@ -233,6 +298,7 @@ a#project-link span#b {
 
 a#project-link:hover span#b {
   display: inline;
+
 }
 
 /* ABOUT ME */

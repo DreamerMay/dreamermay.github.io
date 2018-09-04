@@ -6,15 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sherine Foo Portfolio</title>
   <link rel="stylesheet" href="stylesheets/style.css">
-  <link rel="stylesheet" href="node_modules/izimodal/css/iziModal.min.css">
-  <script src= "js/jquery.js"></script>
-  <script src="js/main.js"></script>
-  <script src="node_modules/izimodal/js/iziModal.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="stylesheets/modality.css" >
+
+  <!-- <link rel="stylesheet" href="node_modules/izimodal/css/iziModal.min.css">
+  <link rel="stylesheet" href="node_modules/izimodal/css/iziModal.css"> -->
+
+
 </head>
 
 <body>
   <header>
-      <nav>ß
+      <nav>
         <div class="nav_margin pullUpDown">
           <a href="index.html">HOME</a>
           <a href="work.html">WORK</a>
@@ -22,7 +24,7 @@
         </div>
       </nav>
   </header>
-ß
+
 
     <main>
       <div class="container">
@@ -35,23 +37,34 @@
             <div class="wrapper">
 
               <div class="img-nest">
-                <img src="./images/web-audio-art.png" alt="Audio Art" class="project-pic">
+
+                <div class="project-img-div">
+                  <img src="./images/web-audio-art.png" alt="Audio Art" class="project-pic" href="#audio-art-pic">
+                  <div class="pop-a-div">
+                    <a class="pop-a" href="#audio-art-pic">open</a>
+                  </div>
+                </div>
+                  <div id="audio-art-pic" class="yourModalClass" style="display:none;">
+                    <h1>Audio Art</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mauris risus, consectetur in ante sit amet, viverra viverra lacus. Nunc a fermentum neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt vehicula lacus id porttitor. Integer vel tristique erat, vel ultricies quam. </p>
+                    <a href="#audio-art-pic">Close Modal</a>
+                  </div>
+
+
                 <br>
-                <a href="https://www.sherinefoo.com/audio_art2/" target="_blank" id="project-link" class="project-name tooltip"><span id="a">Audio Art</span><span id="b">Live Demo</span></a>
+                <a href="https://www.sherinefoo.com/audio_art2/" target="_blank" id="project-link" class="project-name"><span id="a">Audio Art</span><span id="b">Live Demo</span></a>
               </div>
 
+
+
               <div class="img-nest">
-                <img src="./images/web-dating-web.png" alt="Dating Web" class="project-pic trigger">
+                <img src="./images/web-dating-web.png" alt="Dating Web" class="project-pic">
                 <br>
                 <a href="https://todo-meetyou.herokuapp.com/" target="_blank" id="project-link" class="project-name"><span id="a">//TODO: Meet You &#10084;</span><span id="b">Live Demo</span></a>
               </div>
 
             </div>
 
-            <!-- Modal structure -->
-            <div id="modal"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
-            <!-- Modal content -->
-            </div>
 
             <div class="wrapper">
 
@@ -68,14 +81,14 @@
               </div>
 
             </div>
-
-        <!-- Modal structure -->
-        <div id="modal"> <!-- data-iziModal-fullscreen="true"  data-iziModal-title="Welcome"  data-iziModal-subtitle="Subtitle"  data-iziModal-icon="icon-home" -->
-        <!-- Modal content -->
-        </div>
-
-        <!-- Trigger to open Modal -->
-        <a href="https://github.com/dolce/iziModal" class="trigger">Modal</a>
+            <!-- testing iziModal -->
+            <!-- <button class="open-default button">default</button>
+            <div id="modal">
+              <div class="close">
+                <a data-izimodal-close="">×</a>
+              </div>
+              <p class="trigger">このモーダルはデフォルト設定です</p>
+            </div> -->
 
           </div>
 
@@ -123,6 +136,11 @@
 
 
     </main>
-
+    <!-- <script src="node_modules/izimodal/js/iziModal.min.js" type="text/javascript"></script>
+    <script src="node_modules/izimodal/js/iziModal.js" type="text/javascript"></script> -->
+    <script src= "js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/modality.jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
