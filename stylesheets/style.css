@@ -32,8 +32,8 @@ nav a {
   color: white;
   text-decoration: none;
   display: inline-block;
-  margin: 0px 2em;
-  padding: 10px 10px;
+  margin: 0px 1vw;
+  padding: 10px 3vw;
   position: relative;
   z-index: 0;
   cursor: pointer;
@@ -394,11 +394,6 @@ a#project-link:hover span#b {
   margin-top: 5vw;
 }
 
-.wrapper-skillsset {
-  display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
-  grid-column-gap: 3em;
-}
 
 #what-me {
   margin-top: 21vw;
@@ -483,7 +478,7 @@ h4 {
 }
 
 #adventure-p {
-  font-size: 1.8vw;
+  font-size: 20px;
 }
 
 .ad-pic {
@@ -499,3 +494,48 @@ h4 {
   border: 5px solid white;
   margin-bottom: 3vw;
 }
+
+/* responsive web */
+/* .skill_web {
+  grid-area: skill1;
+}
+.skill_ux {
+  grid-area: skilk2;
+}
+.skill_soft {
+  grid-area: skill3;
+} */
+
+.wrapper-skillsset {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-column-gap: 3em;
+  /* grid-template-areas:
+    "skill1"
+    "skill2"
+    "skill3"; */
+}
+
+
+/* @media only screen and (min-width: 500px)  {
+   .wrapper-skillsset {
+     display: grid;
+       grid-template-column: 20% auto;
+       grid-template-areas:
+       "skill1 skill1"
+       "skill2 skill2"
+       "skill3 skill3"
+   } */
+
+
+   /* @media only screen and (min-width: 600px)   {
+       .wrapper-me-skills {
+     grid-gap: 20px;
+           grid-template-columns: 120px auto 120px;
+           grid-template-areas:
+     "header  header  header"
+           "sidebar content sidebar2"
+           "footer  footer  footer";
+           max-width: 600px;
+       }
+   } */
