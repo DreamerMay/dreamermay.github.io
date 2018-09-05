@@ -83,6 +83,34 @@ function draw()
 
 
 // modality popup
-$('#audio-art-pic').modality({
+$('#audio-art-popup').modality({
+    effect: 'slide-up'
+});
+
+$('#dating-web-popup').modality({
+    effect: 'slide-up'
+});
+
+$('#fashion-web-popup').modality({
+    effect: 'slide-up'
+});
+
+$('#TTT-popup').modality({
+    effect: 'slide-up'
+});
+
+$('#KWTE-popup').modality({
+    effect: 'slide-up'
+});
+
+$('#property-popup').modality({
+    effect: 'slide-up'
+});
+
+$('#westfield-popup').modality({
+    effect: 'slide-up'
+});
+
+$('#wordzer-popup').modality({
     effect: 'slide-up'
 });
