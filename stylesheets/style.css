@@ -353,9 +353,98 @@ a#project-link:hover span#b {
 }
 
 /* ABOUT ME */
+
+.wrapper-me-top {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-column-gap: 3em;
+  margin-top: 3em;
+
+}
+
+.wrapper-me-bottom {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-column-gap: 3em;
+  margin-top: 3em;
+}
+
+.wrapper-me-skills {
+  display: grid;
+  grid-template-rows: 1fr 8fr;
+}
+
+.wrapper-skillsset {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  grid-column-gap: 3em;
+}
+
+#what-me {
+  margin-top: 21vw;
+  color: #42FC96;
+  text-align: left;
+}
+#what-me2 {
+  margin-top: 21vw;
+  color: #42FC96;
+  text-align: right;
+
+}
+
+#my-name{
+  font-family: 'Monoton', cursive;
+  font-size: 4vw !important;
+  /* color: #fff; */
+  color: #FF5D73;
+}
+
+
 img#profile_pic {
   border: 5px solid #FF5D73;
   max-width: 200px;
-  border-radius: 50%
+  border-radius: 50%;
+  margin-top: 3vw;
+}
 
+.scroll-icon{
+  width: 3vw;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.intro{
+  color: #42FC96;
+}
+
+.nested-skills-right {
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2vw;
+  color: #42FC96;
+  margin-left: 2.5vw;
+  margin-bottom: 2vw;
+}
+
+#skills-ul li {
+  list-style:none;
 }
