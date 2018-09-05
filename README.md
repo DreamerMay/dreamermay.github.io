@@ -1,6 +1,4 @@
 # dreamermay.github.io
-Coming Soon
-
 
 ## About me
 

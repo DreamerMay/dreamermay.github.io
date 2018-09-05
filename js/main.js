@@ -114,3 +114,16 @@ $('#westfield-popup').modality({
 $('#wordzer-popup').modality({
     effect: 'slide-up'
 });
+
+
+// Scroll button
+  $(".scroll-icon").click(function(e) {
+    $('html, body').animate({
+        scrollTop: $("#intro-screen").offset().top - 70
+    }, 1100);
+  })
+  $(".scroll-icon2").click(function(e) {
+    $('html, body').animate({
+        scrollTop: $("#adventure-h3").offset().top - 70
+    }, 1100);
+  });
