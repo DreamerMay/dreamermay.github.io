@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway|Raleway+Dots|Abril+Fatface|');
+
+@import url('https://fonts.googleapis.com/css?family=Cabin|Monoton|Paytone+One|Aldrich|Cabin+Sketch');
   /* font-family: 'Montserrat', sans-serif; */
 
 
@@ -106,7 +108,6 @@ div.hello {
   margin-top: 5vw;
   text-align: right;
   line-height: 7vw;
-  margin-bottom: 0;
 }
 
 span#home-He {
@@ -129,8 +130,7 @@ div.home-name {
 span#home-web-dev {
   color: white;
   font-size: 2.5vw;
-  margin-top: 1em;
-  padding: 0.2em 1em 0.2em 0.5em;
+  padding: 0.2em 0.5em 0.2em 0.5em;
   background: rgba(	66, 252, 150, 0.5);
   text-align: left;
 }
@@ -140,7 +140,7 @@ span#home-cx-ux {
   margin-bottom: 0;
 }
 
-.class-bottom {
+.bottom {
   display: inline-flex;
 }
 
@@ -158,11 +158,17 @@ a#my-portfoli:hover {
   color: #000;
 }
 
+.contact-icon-div {
+  position: fixed;
+  right: 11vw;
+
+}
+
 .contact-icon{
   width: 30px;
-  float: right;
-  padding-left: 2vw;
+  padding-right: 2vw;
   opacity: 0.5;
+
 }
 
 .contact-icon:hover {
@@ -170,8 +176,10 @@ a#my-portfoli:hover {
 }
 
 /* WORK  */
-h1 {
-  font-family: 'Abril Fatface', cursive;
+#work-h1 {
+  font-family: 'Monoton', cursive;
+  /* font-size: 4vw !important; */
+  /* font-family: 'Abril Fatface', cursive; */
   font-size: 40px;
   color: #42FC96;
   margin-top: 2vw;
@@ -342,11 +350,11 @@ p {
 /* Izimodal end*/
 
 .project-name {
-  font-size: 1.5vw;
+  font-size: 2vw;
   color: #FF5D73;
   text-shadow: #FF5D73 2px 2px 10px;
 }
-
+/*
 #a{
   font-size: 25px;
   color: #FF5D73;
@@ -375,7 +383,7 @@ a#project-link span#b {
 a#project-link:hover span#b {
   display: inline;
 
-}
+} */
 
 /* ABOUT ME */
 
@@ -467,6 +475,12 @@ h4 {
   margin-bottom: 2vw;
 }
 
+.wrapper-skillsset {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  grid-column-gap: 3em;
+}
+
 #skills-ul li {
   list-style:none;
   margin: 20px;
@@ -496,25 +510,67 @@ h4 {
 }
 
 /* responsive web */
-/* .skill_web {
-  grid-area: skill1;
-}
-.skill_ux {
-  grid-area: skilk2;
-}
-.skill_soft {
-  grid-area: skill3;
-} */
+@media only screen and (max-width: 600px)   {
 
-.wrapper-skillsset {
-  display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
-  grid-column-gap: 3em;
-  /* grid-template-areas:
-    "skill1"
-    "skill2"
-    "skill3"; */
+  div.home-page {
+    margin: 0 5em;
+  }
+
+  .container {
+    width: 100%;
+    margin: auto 0;
+  }
+
+  div.hello, div.home-name {
+    width: 100%;
+  }
+
+  .home-text {
+    font-size: 2em;
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .my-profile-btn {
+    display: none;
+  }
+
+  span#home-web-dev, span#home-cx-ux {
+    font-size: 1.8em;
+    line-height: 1em
+  }
+    span#home-web-dev {
+      padding: 0.5em;
+    }
+
+  .botom {
+    display: inline-flex;
+  }
+
+  /* work */
+
+  .wrapper {
+    display: block;
+    width: 100%;
+  }
+
+  .project-pic {
+    width: 80%;
+    height: 40%;
+    margin-top: 2em;
+  }
+
+  .project-name {
+    font-size: 1.8em;
+  }
+
+  /* work pop-up */
+  #popup-h3 {
+    font-size: 2em;
+  }
 }
+
+
 
 
 /* @media only screen and (min-width: 500px)  {
@@ -525,17 +581,4 @@ h4 {
        "skill1 skill1"
        "skill2 skill2"
        "skill3 skill3"
-   } */
-
-
-   /* @media only screen and (min-width: 600px)   {
-       .wrapper-me-skills {
-     grid-gap: 20px;
-           grid-template-columns: 120px auto 120px;
-           grid-template-areas:
-     "header  header  header"
-           "sidebar content sidebar2"
-           "footer  footer  footer";
-           max-width: 600px;
-       }
    } */
