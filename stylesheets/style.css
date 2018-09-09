@@ -236,18 +236,23 @@ h3 {
   font-size: 40px;
   font-style: bold;
   font-weight: black !important;
+  margin-bottom: 0.5em;
 }
 
-#intro-p {
-  letter-spacing: 3px;
-  margin-left: 8vw;
-  margin-right: 8vw;
-  line-height: 30px;
+.popup-p-project {
+  font-family: 'Montserrat', sans-serif;
+  color: #2BC894;
+  font-size: 1.3em;
+  font-weight: bold;
 }
 
 div.intro-div2  {
   width: 80%;
   background-color: pink;
+}
+
+.project-intro-p {
+  line-height: 1.8em;
 }
 
 .modal-popup-box {
@@ -271,6 +276,15 @@ div.intro-div2  {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.popup-demo {
+  display: inline-flex;
+}
+.demo-icon {
+  width: 4em !important;
+  margin-top: 2em;
+  position: fixed;
+  right: 5vw;
+}
 
 .pop-a {
   background-color: white;
@@ -286,13 +300,36 @@ div.intro-div2  {
   padding:0 !important; margin:0 !important;
 }
 .code:hover {
-  color: #42FC96 !important;
+  color: #2BC894 !important;
 }
-
 
 .popup-li{
   margin: 8px 0;
 }
+
+.skill-icon {
+  width: 50px;
+  margin-right: 4%;
+  margin-left: 4%;
+
+}
+
+.skill-icon-trivia {
+  width: 80px;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+.project-skills {
+margin: 0 auto;
+width: 90%;
+}
+
+.project-skills i {
+  font-size: 320%;
+  margin: 4%;
+}
+
 /* close-popup */
 .popup-close{
   left: -8px !important;
@@ -509,6 +546,7 @@ h4 {
   margin-bottom: 3vw;
 }
 
+
 /* responsive web */
 @media only screen and (max-width: 600px)   {
 
@@ -568,6 +606,16 @@ h4 {
   #popup-h3 {
     font-size: 2em;
   }
+
+ /* .popup-demo {
+   display: inline-flex;
+ } */
+
+  .demo-icon-long {
+    margin-top: 6em;
+  }
+
+
 }
 
 
