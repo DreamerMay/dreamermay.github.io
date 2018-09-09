@@ -132,6 +132,10 @@ div.home-name {
   line-height: 4vw;
 }
 
+#home-sherine {
+  color: #42FC96;
+}
+
 span#home-web-dev {
   color: white;
   font-size: 2.5vw;
@@ -166,13 +170,12 @@ a#my-portfoli:hover {
 .contact-icon-div {
   position: fixed;
   right: 11vw;
-
 }
 
 .contact-icon{
-  width: 30px;
+  width: 40px;
   padding-right: 2vw;
-  opacity: 0.5;
+  opacity: 0.7;
 
 }
 
@@ -428,13 +431,29 @@ a#project-link:hover span#b {
 } */
 
 /* ABOUT ME */
-
 .wrapper-me-top {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
   grid-column-gap: 3em;
-  margin-top: 3em;
+  margin-top: 1em;
+  margin-bottom: -1em;
 
+}
+
+.contact-icon-aboutme-div {
+  margin-top: 0;
+  text-align: center;
+  /* position: fixed; */
+}
+
+.contact-icon-aboutme{
+  width: 40px;
+  margin: 0 2vw;
+  opacity: 0.7;
+}
+
+.contact-icon-aboutme:hover {
+  opacity: 1;
 }
 
 
@@ -653,6 +672,10 @@ h4 {
 .wrapper-me-skills {
   display: block;
   width: 100%;
+}
+
+.nested-skillsset-title {
+  margin-bottom: 0
 }
 .wrapper-skillsset{
   display: block;
