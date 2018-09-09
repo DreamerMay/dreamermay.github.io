@@ -259,8 +259,8 @@ div.intro-div2  {
   background-color: pink;
 }
 
-.project-intro-p {
-  line-height: 1.8em;
+#intro-p {
+  line-height: 2em;
 }
 
 .modal-popup-box {
