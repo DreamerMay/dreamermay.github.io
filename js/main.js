@@ -124,6 +124,11 @@ $('#wordzer-popup').modality({
   })
   $(".scroll-icon2").click(function(e) {
     $('html, body').animate({
+        scrollTop: $("#my-skills-h3").offset().top - 70
+    }, 1100);
+  });
+  $(".scroll-icon3").click(function(e) {
+    $('html, body').animate({
         scrollTop: $("#adventure-h3").offset().top - 70
     }, 1100);
   });
