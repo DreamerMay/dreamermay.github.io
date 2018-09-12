@@ -316,10 +316,9 @@ h3 {
 }
 
 .skill-icon {
-  width: 50px;
+  width: 60px;
   margin-right: 4%;
   margin-left: 4%;
-
 }
 
 .skill-icon-trivia {
@@ -330,12 +329,13 @@ h3 {
 
 .project-skills {
 margin: 0 auto;
-width: 90%;
+width: 100%;
 }
 
 .project-skills i {
-  font-size: 320%;
+  font-size: 380%;
   margin: 4%;
+  line-height: 2;
 }
 
 /* close-popup */
@@ -519,7 +519,7 @@ a#project-link:hover span#b {
   }
 }
 
-.intro{
+.intro {
   color: #42FC96;
 }
 
@@ -535,19 +535,36 @@ h4 {
   font-family: 'Abril Fatface', cursive;
   font-size: 30px;
   color: #42FC96;
-  margin-left: 2.5vw;
+  /* margin-left: 2.5vw; */
   margin-bottom: 2vw;
 }
 
+#tech-skills {
+  margin: 5% auto;
+}
+
+.project-skills-me {
+margin: 5em auto;
+width: 100%;
+}
+
+.project-skills-me i {
+  font-size: 380%;
+  margin: 4%;
+  line-height: 2;
+}
+
+
 .wrapper-skillsset {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
-  grid-column-gap: 3em;
+  grid-template-columns: 5fr 5fr;
+  grid-column-gap: 4em;
 }
 
 #skills-ul li {
   list-style:none;
   margin: 20px;
+  margin-left: -1em;
   letter-spacing: 2px;
 }
 
@@ -562,22 +579,19 @@ h4 {
 .ad-pic {
   width: 30vw;
   border-radius: 10px;
-  border: 5px solid white;
+  border: 5px solid #42FC96;
   margin-bottom: 3vw;
 }
 
 .ad-pic2 {
   width: 20vw;
   border-radius: 10px;
-  border: 5px solid white;
+  border: 5px solid #42FC96;
   margin-bottom: 3vw;
 }
 
 @media only screen and (max-width: 780px)   {
-  .wrapper-me-skills {
-    display: block;
-    width: 100%;
-  }
+
   .wrapper-skillsset{
     display: block;
     width: 100%;
@@ -676,6 +690,7 @@ h4 {
   display: block;
   width: 100%;
 }
+
 
 .nested-skillsset-title {
   margin-bottom: 0
