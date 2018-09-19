@@ -335,7 +335,12 @@ width: 100%;
 .project-skills i {
   font-size: 380%;
   margin: 4%;
-  line-height: 2;
+  line-height: 10px
+
+}
+
+.skill_soft li {
+  line-height: 50px
 }
 
 /* close-popup */
@@ -612,6 +617,14 @@ width: 100%;
     font-size: 1.8em;
   }
 
+  #skills-ul li {
+    list-style:none;
+    margin: 20px;
+    margin-left: -1em;
+    letter-spacing: 2px;
+    line-height: 10px
+
+  }
 
 }
 
@@ -684,28 +697,37 @@ width: 100%;
     margin-top: 6em;
   }
 
-/* about me */
+  /* about me */
 
-.wrapper-me-skills {
-  display: block;
-  width: 100%;
-}
+  .wrapper-me-skills {
+    display: block;
+    width: 100%;
+  }
+
+  .nested-skillsset-title {
+    margin-bottom: 0
+  }
+  .wrapper-skillsset{
+    display: block;
+    width: 100%;
+  }
 
 
-.nested-skillsset-title {
-  margin-bottom: 0
-}
-.wrapper-skillsset{
-  display: block;
-  width: 100%;
-}
+  #skills-ul li {
+    list-style:none;
+    margin: 20px;
+    margin-left: -1em;
+    letter-spacing: 2px;
+    line-height: 10px
 
-.ad-pic {
-  width: 80%;
-}
-.ad-pic2 {
-  width: 90%;
-}
+  }
+
+  .ad-pic {
+    width: 80%;
+  }
+  .ad-pic2 {
+    width: 90%;
+  }
 
 }
 
