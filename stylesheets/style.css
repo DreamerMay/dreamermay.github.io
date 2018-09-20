@@ -328,14 +328,15 @@ h3 {
 }
 
 .project-skills {
-margin: 0 auto;
+margin: 10 auto;
 width: 100%;
+line-height: 30px;
 }
 
 .project-skills i {
   font-size: 380%;
   margin: 4%;
-  line-height: 10px
+
 
 }
 
